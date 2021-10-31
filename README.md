@@ -25,4 +25,4 @@ override.tf.json - конкретно этот файл
 # example: *tfplan* - тут не совсем понятно, но вроде шаблон для исключения файлов типа TFPLAN или файлов example:(вставь что хочу)tfplan(вставь что хочу)
 
 .terraformrc - игнорировать файл конфигурации .terraformrc
-terraform.rc - игнорировать файл конфигурации terraform.rc
+terraform.rc - игнорировать файл конфигурации terraform.rcVoskresenie 31.10.21
