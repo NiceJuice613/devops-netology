@@ -48,7 +48,8 @@ result_os = os.popen(' && '.join(bash_command)).read()
 for result in result_os.split('\n'):
     if result.find('modified') != -1:
         prepare_result = result.replace('\tmodified:   ', '')
-        print (os.path.join(resolved_path, prepare_result))```
+        print (os.path.join(resolved_path, prepare_result))
+```
 
 ### Вывод скрипта при запуске при тестировании:
 ```
