@@ -41,8 +41,6 @@
      \q                     quit psql
     ```
 
-
-
 ## Задача 2
 
 - Используя `psql` создайте БД `test_database`.
@@ -58,6 +56,8 @@ CREATE DATABASE
 sudo docker cp test_dump.sql pg-docker:/tmp
 ```
 
+![6.4_Screen_1](C:\Users\KING\Desktop\6.4_Screen\6.4_Screen_1.jpg)
+
 - Перейдите в управляющую консоль `mysql` внутри контейнера.
 
 ```
@@ -66,11 +66,11 @@ psql -U postgres
 
 - Подключитесь к восстановленной БД и проведите операцию ANALYZE для сбора статистики по таблице.
 
-  ![6.3_Screen_2](C:\Users\KING\Desktop\6.3_Screen\6.3_Screen_6.jpg)
+  ![6.4_Screen_2](C:\Users\KING\Desktop\6.4_Screen\6.4_Screen_2.jpg)
 
 - Используя таблицу [pg_stats](https://postgrespro.ru/docs/postgresql/12/view-pg-stats), найдите столбец таблицы `orders` с наибольшим средним значением размера элементов в байтах.
 
-  ![6.3_Screen_2](C:\Users\KING\Desktop\6.3_Screen\6.3_Screen_6.jpg)
+  ![6.4_Screen_3](C:\Users\KING\Desktop\6.4_Screen\6.4_Screen_3.jpg)
 
 ## Задача 3
 
@@ -78,7 +78,7 @@ psql -U postgres
 
 Предложите SQL-транзакцию для проведения данной операции.
 
-![6.3_Screen_2](C:\Users\KING\Desktop\6.3_Screen\6.3_Screen_6.jpg)
+![6.4_Screen_4](C:\Users\KING\Desktop\6.4_Screen\6.4_Screen_4.jpg)
 
 Можно ли было изначально исключить "ручное" разбиение при проектировании таблицы orders?
 
